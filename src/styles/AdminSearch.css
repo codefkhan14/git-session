@@ -1,0 +1,27 @@
+
+
+.search-top-bar {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.top-search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.top-search-icon {
+    font-size: 20px;
+    padding: 0 15px;
+    color: #ccc;
+}
+
+.top-search-bar input[type="text"] {
+    height: 40px;
+    background: transparent;
+    border: none;
+    width: 400px;
+    font-size: 16px;
+}
